@@ -22,6 +22,14 @@ This project integrates Twilio WhatsApp messaging with n8n workflow automation t
 
 - Accessing outputs from non-immediately previous nodes in the n8n workflow has been a challenging area and remains a work in progress.
 
+## Security Notice
+
+**Important:**  
+All credentials such as Twilio SID, Auth Tokens, API keys, and other sensitive information have been **removed** from this repository for security purposes.
+
+Please ensure you configure your own credentials securely in your n8n environment before running the workflow. Never commit or share your secrets publicly.
+
+
 ## How to Use
 
 1. Configure your Twilio credentials securely in n8n.
